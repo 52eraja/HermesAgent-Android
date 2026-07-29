@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hermes Agent</string>
+    <string name="app_description">AI Agent Mobile Client</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">Chat</string>
+    <string name="nav_conversations">Conversations</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Chat Screen -->
+    <string name="chat_hint">Type a message…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_connecting">Connecting…</string>
+    <string name="chat_connected">Connected</string>
+    <string name="chat_disconnected">Disconnected</string>
+    <string name="chat_error">Connection error</string>
+    <string name="chat_empty">Start a conversation with your Hermes Agent</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Hermes Agent Login</string>
+    <string name="login_server_url">Server URL</string>
+    <string name="login_server_url_hint">http://192.168.50.196:9119</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Connect</string>
+    <string name="login_connecting">Connecting…</string>
+    <string name="login_error">Login failed. Check your credentials and server URL.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_server">Server Configuration</string>
+    <string name="settings_server_url">Server URL</string>
+    <string name="settings_auth">Authentication</string>
+    <string name="settings_model">Default Model</string>
+    <string name="settings_model_hint">e.g. deepseek-ai/DeepSeek-V3.2</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_follow_system">Follow System</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_disconnect">Disconnect</string>
+    <string name="settings_disconnect_confirm">Are you sure you want to disconnect from the server?</string>
+
+    <!-- Conversations Screen -->
+    <string name="conversations_title">Conversations</string>
+    <string name="conversations_empty">No conversations yet</string>
+    <string name="conversations_delete">Delete</string>
+    <string name="conversations_delete_confirm">Delete this conversation?</string>
+
+    <!-- General -->
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+</resources>

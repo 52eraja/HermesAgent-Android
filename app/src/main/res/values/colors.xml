@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors -->
+    <color name="hermes_primary">#FF6750A4</color>
+    <color name="hermes_primary_container">#FFEADDFF</color>
+    <color name="hermes_secondary">#FF625B71</color>
+    <color name="hermes_tertiary">#FF7D5260</color>
+
+    <!-- Surface colors -->
+    <color name="hermes_surface">#FFFFFBFE</color>
+    <color name="hermes_surface_variant">#FFE7E0EC</color>
+    <color name="hermes_background">#FFFFFBFE</color>
+
+    <!-- On colors -->
+    <color name="hermes_on_primary">#FFFFFFFF</color>
+    <color name="hermes_on_secondary">#FFFFFFFF</color>
+    <color name="hermes_on_surface">#FF1C1B1F</color>
+    <color name="hermes_on_background">#FF1C1B1F</color>
+
+    <!-- Status colors -->
+    <color name="hermes_connected">#FF4CAF50</color>
+    <color name="hermes_disconnected">#FFF44336</color>
+    <color name="hermes_connecting">#FFFFC107</color>
+
+    <!-- Chat colors -->
+    <color name="user_message_bg">#FF6750A4</color>
+    <color name="agent_message_bg">#FFF5F0FF</color>
+    <color name="user_message_text">#FFFFFFFF</color>
+    <color name="agent_message_text">#FF1C1B1F</color>
+</resources>

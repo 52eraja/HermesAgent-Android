@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    android:tint="#6750A4">
+    <!-- Hermes Staff (Caduceus) inspired icon - wings and staff -->
+    <group
+        android:translateX="22"
+        android:translateY="22">
+        <!-- Staff -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M32,8L32,56C32,57.1 31.1,58 30,58L28,58C26.9,58 26,57.1 26,56L26,8C26,6.9 26.9,6 28,6L30,6C31.1,6 32,6.9 32,8Z" />
+        <!-- Left wing -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M28,18C22,18 14,14 10,8C14,12 18,16 28,20Z" />
+        <!-- Right wing -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M30,18C36,18 44,14 48,8C44,12 40,16 30,20Z" />
+        <!-- Left wing lower -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M28,26C22,26 14,30 10,36C14,32 18,28 28,24Z" />
+        <!-- Right wing lower -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M30,26C36,26 44,30 48,36C44,32 40,28 30,24Z" />
+        <!-- Circle on top -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M29,4m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+        <!-- AI/mind node -->
+        <path
+            android:fillColor="#EADDFF"
+            android:pathData="M29,34m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+        <!-- Connection dots -->
+        <path
+            android:fillColor="#EADDFF"
+            android:pathData="M29,44m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+        <path
+            android:fillColor="#EADDFF"
+            android:pathData="M29,52m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    </group>
+</vector>
