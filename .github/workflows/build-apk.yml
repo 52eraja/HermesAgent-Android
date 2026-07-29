@@ -42,8 +42,11 @@ jobs:
         uses: android-actions/setup-android@v3
 
       # 使用 Gradle action 自动安装 Gradle（不需要 wrapper jar）
+      # 指定 Gradle 8.5 以兼容 Android Gradle Plugin 8.2.2
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: "8.5"
 
       - name: Cache Gradle dependencies
         uses: actions/cache@v4
